@@ -11,24 +11,23 @@ const (
 	// Registers
 	IODIRA = 0x00 // I/O direction register for Port A
 	IODIRB = 0x01
-	// GPIOA  = 0x12 // GPIO register for Port A
 
 	// MCP23017 pin mappings based on Python library
-	LcdRsPin     = "B7" // Pin 15 on MCP23017
-	LcdEnablePin = "B5" // Pin 13 on MCP23017
-	LcdD4Pin     = "B4" // Pin 12 on MCP23017
-	LcdD5Pin     = "B3" // Pin 11 on MCP23017
-	LcdD6Pin     = "B2" // Pin 10 on MCP23017
-	LcdD7Pin     = "B1" // Pin 9 on MCP23017
+	LcdRsPin     = "B7" // Pin 15
+	LcdEnablePin = "B5" // Pin 13
+	LcdD4Pin     = "B4" // Pin 12
+	LcdD5Pin     = "B3" // Pin 11
+	LcdD6Pin     = "B2" // Pin 10
+	LcdD7Pin     = "B1" // Pin 9
 	RwPin        = "B6" // Pin 14
 
 	// MCP23017 pins for RGB LED
-	RedPin       = "A6" // Pin 6 on MCP23017
-	GreenPin     = "A7" // Pin 7 on MCP23017
-	BluePin      = "B0" // Pin 8 on MCP23017
-	BacklightPin = "A5" // Pin 5 on MCP23017
+	RedPin       = "A6" // Pin 6
+	GreenPin     = "A7" // Pin 7
+	BluePin      = "B0" // Pin 8
+	BacklightPin = "A5" // Pin 5
 
-	// Button pins
+	// MCP23017 pins for Buttons
 	LeftButton   = "A4" // Pin 4
 	UpButton     = "A3" // Pin 3
 	DownButton   = "A2" // Pin 2
