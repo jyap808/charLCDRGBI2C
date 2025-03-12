@@ -26,4 +26,4 @@ TLDR, I managed to get the backlight working.
 
 ## Credits
 
-Most of the code is based on the https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+Most of the code is based on the [Adafruit CircuitPython CharLCD Library](https://github.com/adafruit/Adafruit_CircuitPython_CharLCD)
