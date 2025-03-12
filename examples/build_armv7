@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+for F in *.go; do
+    env GOOS=linux GOARCH=arm GOARM=7 go build -o build/ $F
+    echo "Building $F"
+done
+
